@@ -20,7 +20,7 @@ function Home() {
   return (
     <div className="App" >
       <Navbar bg="navbar" variant="dark" sticky="top">
-        <NavbarBrand style={{padding: '20px'}}>Mercadito</NavbarBrand>
+        <NavbarBrand style={{padding: '20px'}}>Airbus</NavbarBrand>
       </Navbar>
       
       <div className="bottom-div">

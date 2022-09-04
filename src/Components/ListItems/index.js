@@ -14,7 +14,7 @@ const ListItems = ({ nomes, valores, pesos}) =>  {
                 Valor
             </h3>
             <h3>
-                Peso
+                Volume
             </h3>
         </div>
         <div className="list-structure">
@@ -37,7 +37,7 @@ const ListItems = ({ nomes, valores, pesos}) =>  {
             <div className="info-div">
                 {pesos.map((peso) => (
                     <p>
-                        {peso} Kg
+                        {peso} m³
                     </p>
                 ))}
             </div>

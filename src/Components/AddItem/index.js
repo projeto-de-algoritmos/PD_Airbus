@@ -61,15 +61,6 @@ const AddItem = ({pesos, setPesos, valores, setValores, nomes, setNomes}) =>  {
                   onChange={onChangeNome}
                 />
               </Form.Group>
-              <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                <Form.Label className="label">Peso</Form.Label>
-                <Form.Control
-                  type="number"
-                  placeholder="Peso do Item em Kg"
-                  value={pesoItem}
-                  onChange={onChangePeso}
-                />
-              </Form.Group>
               <Form.Group
                 className="mb-3"
                 controlId="exampleForm.ControlTextarea1"
@@ -81,6 +72,15 @@ const AddItem = ({pesos, setPesos, valores, setValores, nomes, setNomes}) =>  {
                   value={valorItem}
                   onChange={onChangeValor}
                 />
+                <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                  <Form.Label className="label">Volume (m³)</Form.Label>
+                  <Form.Control
+                    type="number"
+                    placeholder="Volume do item em m³"
+                    value={pesoItem}
+                    onChange={onChangePeso}
+                  />
+                </Form.Group>
               </Form.Group>
             </Form>
           </Modal.Body>
