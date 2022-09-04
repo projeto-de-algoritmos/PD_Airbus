@@ -40,8 +40,8 @@ const AddItem = ({pesos, setPesos, valores, setValores, nomes, setNomes}) =>  {
     }
   
     return (
-      <div>
-        <Button variant="primary" onClick={handleShow}>
+      <div className="button-space">
+        <Button variant="outline-primary" onClick={handleShow}>
           Adicionar Item
         </Button>
   

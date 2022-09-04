@@ -8,13 +8,13 @@ const ListItems = ({ nomes, valores, pesos}) =>  {
       >
         <div className="list-structure-title">
             <h3>
-                Nome
+                Nome do produto
             </h3>
             <h3>
-                Valor
+                Custo 
             </h3>
             <h3>
-                Volume
+                Volume 
             </h3>
         </div>
         <div className="list-structure">

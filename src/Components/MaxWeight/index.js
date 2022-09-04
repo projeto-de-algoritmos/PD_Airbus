@@ -22,7 +22,7 @@ const MaxWeight = ({ setMaxWeight}) =>  {
   
     return (
       <div>
-        <Button variant="primary" onClick={handleShow}>
+        <Button variant="outline-primary" onClick={handleShow}>
           Informar volume máximo disponível no avião
         </Button>
   
