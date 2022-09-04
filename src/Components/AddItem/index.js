@@ -65,7 +65,7 @@ const AddItem = ({pesos, setPesos, valores, setValores, nomes, setNomes}) =>  {
                 className="mb-3"
                 controlId="exampleForm.ControlTextarea1"
               >
-                <Form.Label className="label">Preço</Form.Label>
+                <Form.Label className="label">Preço (R$)</Form.Label>
                 <Form.Control
                   type="number"
                   placeholder="Preço do Item em Reais"

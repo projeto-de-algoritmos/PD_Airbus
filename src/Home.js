@@ -9,19 +9,21 @@ import ListItems from './Components/ListItems';
 import { Alert, NavbarBrand } from "react-bootstrap";
 import { Navbar } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import LocalAirportSharpIcon from '@mui/icons-material/LocalAirportSharp';
 
 function Home() {
-  const [pesos, setPesos] = useState([0]);
-  const [valores, setValores] = useState([0]);
-  const [nomes, setNomes] = useState(['Exemplo de nome']);
-  const [maxWeight, setMaxWeight] = useState(0);
+  const [pesos, setPesos] = useState([]);
+  const [valores, setValores] = useState([]);
+  const [nomes, setNomes] = useState([' ']);
+  const [maxWeight, setMaxWeight] = useState();
   const [showAlert, setShowAlert] = useState(false);
   const [result, setResult] = useState(0);
 
   return (
     <div className="App" >
       <Navbar bg="navbar" variant="dark" sticky="top">
-        <NavbarBrand style={{padding: '20px'}}>Airbus </NavbarBrand>
+        <NavbarBrand style={{padding: '20px'}}>
+        <LocalAirportSharpIcon />  Airbus </NavbarBrand>
       </Navbar>
 
       <div className="text-div">
