@@ -23,17 +23,17 @@ const MaxWeight = ({ setMaxWeight}) =>  {
     return (
       <div>
         <Button variant="primary" onClick={handleShow}>
-          Informar Carga Máxima Permitida
+          Informar volume máximo disponível no avião
         </Button>
   
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton >
-            <Modal.Title>Carga Máxima Permitida</Modal.Title>
+            <Modal.Title>Volume disponível</Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <Form>
               <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                <Form.Label className="label">Carga Máxima</Form.Label>
+                <Form.Label className="label">Volume máximo (m³)</Form.Label>
                 <Form.Control
                   type="number"
                   placeholder="Carga Máxima"
