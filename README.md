@@ -24,7 +24,7 @@ O projeto tem o objetivo de otimizar o transporte em aviões de carga utilizando
 ## Instalação
 
 ### Frameworks 
-ReactJS e NodeJS
+ReactJS 
 
 ### Instalar dependências
 ```
