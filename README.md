@@ -39,4 +39,4 @@ O projeto estará rodando na porta ```localhost:3000```
 
 ## Apresentação
 
-[Link da apresentação]()
+[Link da apresentação](https://youtu.be/N90DxxjkiHo)
